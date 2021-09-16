@@ -40,6 +40,7 @@ public class logindetails implements Servlet {
 	@Override
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
 		
+		System.out.println("welcome");
 		System.out.println("Login details reached");
 		String username=req.getParameter("un");
 		String password=req.getParameter("pwd");
